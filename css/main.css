@@ -1,293 +1,285 @@
-  /* ===================================================================
+/* ===================================================================
    * # works
    *
    * ------------------------------------------------------------------- */
-  .s-works {
-    padding-top: 19.2rem;
-    padding-bottom: 16rem;
-    background-color: #ffffff;
-  }
-  
-  .masonry-wrap {
-    width: 89%;
-    max-width: 1400px;
-    margin-top: 11.2rem;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .masonry .grid-sizer,
-  .masonry__brick {
-    width: 50%;
-  }
-  
-  .masonry__brick {
-    float: left;
-    padding: 0 30px;
-    margin-bottom: 60px;
-  }
-  
-  .item-folio {
-    text-align: center;
-    padding: 60px;
-    background-color: #EFEFEF;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  /* item-folio thumb
+.s-works {
+  padding-top: 19.2rem;
+  padding-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+.masonry-wrap {
+  width: 89%;
+  max-width: 1400px;
+  margin-top: 11.2rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.masonry .grid-sizer,
+.masonry__brick {
+  width: 50%;
+}
+
+.masonry__brick {
+  float: left;
+  padding: 0 30px;
+  margin-bottom: 60px;
+}
+
+.item-folio {
+  text-align: center;
+  padding: 60px;
+  background-color: #efefef;
+  transition: all 0.5s ease-in-out;
+}
+
+/* item-folio thumb
    * -------------------------------------- */
-  .item-folio__thumb {
-    position: relative;
-    overflow: hidden;
-    height: 100%;
-    width: 100%;
-  }
-  
-  .item-folio__thumb .thumb-link {
-    display: block;
-    position: relative;
-  }
-  
-  .item-folio__thumb .thumb-link::before,
-  .item-folio__thumb .thumb-link::after,
-  .item-folio__thumb .thumb-link .item-folio__project-link {
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .item-folio__thumb .thumb-link::before {
-    display: block;
-    content: "";
-    background-color: rgba(0, 0, 0, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    visibility: hidden;
-  }
-  
-  
-  .item-folio__thumb img {
-    vertical-align: bottom;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .item-folio__thumb .item-folio__project-link {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-color:#0000007c;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 30%;
-    background-image: url(../images/icons/IG.PNG);
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    z-index: 2;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-  }
-  
-  /* item-folio thumb on hover 
+.item-folio__thumb {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.item-folio__thumb .thumb-link {
+  display: block;
+  position: relative;
+}
+
+.item-folio__thumb .thumb-link::before,
+.item-folio__thumb .thumb-link::after,
+.item-folio__thumb .thumb-link .item-folio__project-link {
+  transition: all 0.5s ease-in-out;
+}
+
+.item-folio__thumb .thumb-link::before {
+  display: block;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.item-folio__thumb img {
+  vertical-align: bottom;
+  width: 100%;
+  height: 100%;
+}
+
+.item-folio__thumb .item-folio__project-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #0000007c;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 30%;
+  background-image: url(../images/icons/IG.PNG);
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* item-folio thumb on hover 
    * ----------------------------------------------- */
-  .item-folio__thumb:hover a::before,
-  .item-folio__thumb:hover a::after {
-    opacity: 1;
-    visibility: visible;
-  }
-  
-  .item-folio__thumb:hover .item-folio__project-link {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-  
-  /* item-folio text
+.item-folio__thumb:hover a::before,
+.item-folio__thumb:hover a::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.item-folio__thumb:hover .item-folio__project-link {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* item-folio text
    * ------------------------------------------------ */
-  .item-folio__text {
-    margin-top: 8.92%;
-  }
-  
-  .item-folio__text,
-  .item-folio__title,
-  .item-folio__cat {
-    display: inline-block;
-  }
-  
-  .item-folio__title,
-  .item-folio__cat {
-    font-family: "Roboto", sans-serif;
-    font-size: 1.7rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 2rem;
-  }
-  
-  .item-folio__title {
-    font-weight: 500;
-    color: #000000;
-  }
-  
-  .item-folio__cat {
-    font-weight: 300;
-    color: rgba(0, 0, 0, 0.7);
-  }
-  
-  .item-folio__cat::before {
-    content: "-";
-    margin: 0 .4rem;
-  }
-  
-  .item-folio__caption {
-    display: none;
-  }
-  
-  /* ------------------------------------------------------------------- 
+.item-folio__text {
+  margin-top: 8.92%;
+}
+
+.item-folio__text,
+.item-folio__title,
+.item-folio__cat {
+  display: inline-block;
+}
+
+.item-folio__title,
+.item-folio__cat {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 2rem;
+}
+
+.item-folio__title {
+  font-weight: 500;
+  color: #000000;
+}
+
+.item-folio__cat {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.item-folio__cat::before {
+  content: "-";
+  margin: 0 0.4rem;
+}
+
+.item-folio__caption {
+  display: none;
+}
+
+/* ------------------------------------------------------------------- 
    * responsive:
    * works
    * ------------------------------------------------------------------- */
-  @media screen and (max-width:1200px) {
-    .masonry__brick {
-      padding: 0 24px;
-      margin-bottom: 48px;
-    }
-  
-    .item-folio {
-      padding: 48px;
-    }
-  
-    .item-folio__thumb .thumb-link::after {
-      width: 3rem;
-      height: 3rem;
-    }
-  
-    .item-folio__thumb .item-folio__project-link {
-      width: 5.6rem;
-      height: 5.6rem;
-    }
-  
-    .item-folio__title,
-    .item-folio__cat {
-      font-size: 1.5rem;
-    }
-  
-  }
-  
-  @media screen and (max-width:1024px) {
-    .masonry__brick {
-      padding: 0 20px;
-      margin-bottom: 40px;
-    }
-  
-    .item-folio {
-      padding: 40px;
-    }
-  
-  }
-  
-  @media screen and (max-width:900px) {
-    .masonry__brick {
-      padding: 0 16px;
-      margin-bottom: 32px;
-    }
-  
-    .item-folio {
-      padding: 32px;
-    }
-  
-  }
-  
-  @media screen and (max-width:800px) {
-    .s-works {
-      padding-top: 16rem;
-    }
-  
-    .masonry-wrap {
-      margin-top: 7.2rem;
-    }
-  
-    .masonry .grid-sizer,
-    .masonry__brick {
-      width: 100%;
-    }
-  
-    .masonry__brick {
-      float: none;
-      margin-bottom: 60px;
-    }
-  
-    .item-folio {
-      padding: 8.92% 8.92% 8.92%;
-    }
-  
-    .item-folio__thumb .thumb-link::after {
-      width: 3.6rem;
-      height: 3.6rem;
-    }
-  
-    .item-folio__thumb .item-folio__project-link {
-      width: 6.4rem;
-      height: 6.4rem;
-    }
-  
-    .item-folio__title,
-    .item-folio__cat {
-      font-size: 1.7rem;
-    }
-  
-  }
-  
-  @media screen and (max-width:600px) {
-    .masonry-wrap {
-      width: auto;
-      padding-left: 25px;
-      padding-right: 25px;
-    }
-  
-    .masonry__brick {
-      padding: 0 10px;
-      margin-bottom: 44px;
-    }
-  
-    .item-folio__thumb .thumb-link::after {
-      width: 3rem;
-      height: 3rem;
-    }
-  
-    .item-folio__thumb .item-folio__project-link {
-      width: 5.6rem;
-      height: 5.6rem;
-    }
-  
-    .item-folio__title,
-    .item-folio__cat {
-      font-size: 1.5rem;
-    }
-  
-  }
-  
-  @media screen and (max-width:500px) {
-    .masonry__brick {
-      margin-bottom: 3.6rem;
-    }
-  
-  }
-  
-  @media screen and (max-width:400px) {
-    .masonry__brick {
-      padding: 0;
-      margin-bottom: 3.2rem;
-    }
-  
+@media screen and (max-width: 1200px) {
+  .masonry__brick {
+    padding: 0 24px;
+    margin-bottom: 48px;
   }
 
-  .paragaf {
-    padding: 0px 60px;
+  .item-folio {
+    padding: 48px;
   }
 
-  @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+  .item-folio__thumb .thumb-link::after {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .item-folio__thumb .item-folio__project-link {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+
+  .item-folio__title,
+  .item-folio__cat {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .masonry__brick {
+    padding: 0 20px;
+    margin-bottom: 40px;
+  }
+
+  .item-folio {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .masonry__brick {
+    padding: 0 16px;
+    margin-bottom: 32px;
+  }
+
+  .item-folio {
+    padding: 32px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .s-works {
+    padding-top: 16rem;
+  }
+
+  .masonry-wrap {
+    margin-top: 7.2rem;
+  }
+
+  .masonry .grid-sizer,
+  .masonry__brick {
+    width: 100%;
+  }
+
+  .masonry__brick {
+    float: none;
+    margin-bottom: 60px;
+  }
+
+  .item-folio {
+    padding: 8.92% 8.92% 8.92%;
+  }
+
+  .item-folio__thumb .thumb-link::after {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .item-folio__thumb .item-folio__project-link {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .item-folio__title,
+  .item-folio__cat {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .masonry-wrap {
+    width: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .masonry__brick {
+    padding: 0 10px;
+    margin-bottom: 44px;
+  }
+
+  .item-folio__thumb .thumb-link::after {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .item-folio__thumb .item-folio__project-link {
+    width: 5.6rem;
+    height: 5.6rem;
+  }
+
+  .item-folio__title,
+  .item-folio__cat {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .masonry__brick {
+    margin-bottom: 3.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .masonry__brick {
+    padding: 0;
+    margin-bottom: 3.2rem;
+  }
+}
+
+.paragaf {
+  padding: 0px 60px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
 
 .type-pause-button {
   position: absolute;
@@ -1535,4 +1527,98 @@ xpush
     -o-transform: translateX(100%);
     transform: translateX(100%);
   }
+}
+
+/*talent */
+/*--------------------------------------------------------------
+# Chefs Section
+--------------------------------------------------------------*/
+.chefs .chef-member {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.08);
+  transition: 0.3s;
+}
+
+.chefs .chef-member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.chefs .chef-member .member-img:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../img/team-shape.svg) no-repeat center bottom;
+  background-size: contain;
+  z-index: 1;
+}
+
+.chefs .chef-member .social {
+  position: absolute;
+  right: -100%;
+  top: 30px;
+  opacity: 0;
+  border-radius: 4px;
+  transition: 0.5s;
+  background: rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+
+.chefs .chef-member .social a {
+  transition: color 0.3s;
+  color: rgba(55, 55, 63, 0.4);
+  margin: 15px 12px;
+  display: block;
+  line-height: 0;
+  text-align: center;
+}
+
+.chefs .chef-member .social a:hover {
+  color: rgba(55, 55, 63, 0.9);
+}
+
+.chefs .chef-member .social i {
+  font-size: 18px;
+}
+
+.chefs .chef-member .member-info {
+  padding: 10px 15px 20px 15px;
+}
+
+.chefs .chef-member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: var(--color-secondary);
+}
+
+.chefs .chef-member .member-info span {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(33, 37, 41, 0.4);
+}
+
+.chefs .chef-member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  padding-top: 15px;
+  line-height: 26px;
+  color: rgba(33, 37, 41, 0.7);
+}
+
+.chefs .chef-member:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+}
+
+.chefs .chef-member:hover .social {
+  right: 8px;
+  opacity: 1;
 }

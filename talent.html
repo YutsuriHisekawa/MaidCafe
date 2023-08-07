@@ -1,288 +1,409 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
     <title>Maid Cafe</title>
+    <link rel="icon" href="images/logo.png" type="image/png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
 
-    <link href="css/bootstrap-icons.css" rel="stylesheet">
+    <link href="css/bootstrap-icons.css" rel="stylesheet" />
 
-    <link href="css/maidcafe.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
+    <link href="css/maidcafe.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <main>
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <img
+              src="images/logo.png"
+              class="navbar-brand-image img-fluid"
+              alt="Tiya Golf Club"
+            />
+            <span class="navbar-brand-text">
+              Kisetsu
+              <small>Go To No Shiawase</small>
+            </span>
+          </a>
 
-        <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <a class="navbar-brand d-flex align-items-center" href="index.html">
-                    <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Tiya Golf Club">
-                    <span class="navbar-brand-text">
-                        Kisetsu
-                        <small>Go To No Shiawase</small>
-                    </span>
-                </a>
+          <div class="custom-btn-group">
+            <a href="index.html" class="btn custom-btn smoothscroll me-3"
+              >Home</a
+            >
+          </div>
+        </div>
+      </nav>
 
-                <div class="custom-btn-group">
-                    <a href="index.html" class="btn custom-btn smoothscroll me-3">Home</a>
-                </div>
+      <!-- BODY -->
 
+      <section
+        class="hero-section d-flex justify-content-center align-items-center"
+        id="section_1"
+      >
+        <div class="section-overlay"></div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#3D405B"
+            fill-opacity="1"
+            d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"
+          ></path>
+        </svg>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12 mb-5 mb-lg-0">
+              <h2 class="text-white">Aki no Variable Cafe</h2>
+
+              <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
+                <span>This is Talent of </span>
+                <span class="cd-words-wrapper">
+                  <b class="is-visible"> Maid </b>
+                  <b>Guest Star</b>
+                  <b>Butler</b>
+                </span>
+              </h1>
             </div>
-        </nav>
 
-        <!-- BODY -->
-
-
-        <section class="hero-section d-flex justify-content-center align-items-center" id="section_1">
-
-            <div class="section-overlay"></div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#3D405B" fill-opacity="1"
-                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z">
-                </path>
-            </svg>
-
-            <div class="container">
-                <div class="row">
-
-                    <div class="col-lg-6 col-12 mb-5 mb-lg-0">
-                        <h2 class="text-white">Aki no Variable Cafe</h2>
-
-                        <h1 class="cd-headline rotate-1 text-white mb-4 pb-2">
-                            <span>This is Talent of </span>
-                            <span class="cd-words-wrapper">
-                                <b class="is-visible"> Maid </b>
-                                <b>Guest Star</b>
-                                <b>Butler</b>
-                            </span>
-                        </h1>
-
-
-                    </div>
-
-                    <!-- EMBED                         
+            <!-- EMBED                         
                         <div class="col-lg-6 col-12">
                             <div class="ratio ratio-16x9">
                                 <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                             </div>
                         </div>
                     -->
-
-
-                </div>
-            </div>
-
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#ffffff" fill-opacity="1"
-                    d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-                </path>
-            </svg>
-        </section>
-
-        <!-- Galeri // Galeri
-    ================================================== -->
-        <section class="s-works target-section">
-
-            <div class="row heading-block heading-block--center" data-aos="fade-up">
-                <div class="col-lg-12 col-12 text-center">
-                    <h2 class="mb-lg-10 mb-10">MAID AND BUTLER</h2>
-                </div>
-            </div> <!-- end heading-block -->
-
-            <div class="col-lg-12 col-12 text-center">
-
-                <div class="paragaf col-12 me-auto mb-4 mb-lg-0">
-                    <p> Kami mengundang talenta terbaik untuk bergabung dengan <strong> Aki no Variable Maid Cafe</strong> dalam sebuah
-                        event khusus yang sedang kami persiapkan. Kami sedang mencari talenta yang memiliki kemampuan komunikasi yang baik,
-                        sikap profesional, serta penampilan menawan untuk menjadi bagian dari maid and butler kami. Sebagai maid and butler
-                        dalam <strong> Aki no Variable Maid Cafe</strong>, Anda akan menciptakan atmosfer yang khusus dan memberikan pengalaman yang tak
-                        terlupakan kepada para master yang hadir dalam event ini.
-                        <br>
-                        <br>
-                        Sebagai maid and butler dalam event ini, Anda akan memiliki kesempatan unik untuk memberikan pelayanan istimewa
-                        kepada para master. Dalam <strong> Aki no Variable Maid Cafe</strong>, kami mengutamakan profesionalisme, komunikasi
-                        yang baik, serta penampilan yang menarik.
-                        <br>
-                        <br>
-                        Jadi, jika Anda adalah seorang talenta yang memiliki keahlian tersebut,
-                        kami mengundang Anda untuk bergabung dengan kami dalam event ini. Jadilah bagian dari pengalaman maid and butler
-                        yang eksklusif dalam <strong> Aki no Variable Maid Cafe</strong>, dan nikmati pengalaman yang memuaskan dalam melayani para master
-                        dengan keramahan dan keanggunan.
-                    </p>
-                </div>
-
-                <div class="custom-btn-group">
-                    <a href="https://docs.google.com/forms/d/1Q7sTyQzTBKyAOJMDdt2xJ7Cme_ZxLsW-Usx9Iye1gtk/edit"
-                        class="btn custom-btn smoothscroll me-3">Register as Talent !</a>
-                </div>
-            </div>
-
-            <div class="masonry-wrap">
-
-                <div class="masonry">
-                    <div class="grid-sizer"></div>
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                            <div class="item-folio__thumb">
-                                <a href="https://www.instagram.com/inachellina/"
-                                    class="thumb-link"  data-size="1050x700">
-                                    <img src="images/members/eline.jpg" srcset="images/members/eline.jpg 1.png 1x, images/members/eline.jpg 1.png 2x"
-                                        alt="">
-                                </a>
-                                <a href="https://www.instagram.com/inachellina/"
-                                    class="item-folio__project-link"  target="_blank"></a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h4 class="item-folio__title">
-                                    ELINE
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                            <div class="item-folio__thumb">
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="thumb-link"  data-size="1050x700">
-                                    <img src="images/members/thoriq.jpg" srcset="images/members/thoriq.jpg 2.png 1x, images/members/thoriq.jpg 2.png 2x"
-                                        alt="">
-                                </a>
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="item-folio__project-link"  target="_blank"></a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h4 class="item-folio__title">
-                                    MOTSU
-                                </h4>
-                            </div>
-                            <div class="item-folio__caption">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                            <div class="item-folio__thumb">
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="thumb-link"  data-size="1050x700">
-                                    <img src="images/members/farah.jpg" srcset="images/members/farah.jpg 2.png 1x, images/members/farah.jpg 2.png 2x"
-                                        alt="">
-                                </a>
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="item-folio__project-link"  target="_blank"></a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h4 class="item-folio__title">
-                                     FARAH
-                                </h4>
-                            </div>
-                            <div class="item-folio__caption">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    </div>
-
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                            <div class="item-folio__thumb">
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="thumb-link"  data-size="1050x700">
-                                    <img src="images/members/rintaro.jpg" srcset="images/members/rintaro.jpg 2.png 1x, images/members/rintaro.jpg 2.png 2x"
-                                        alt="">
-                                </a>
-                                <a href="https://www.instagram.com/imthor13/"
-                                    class="item-folio__project-link" title="Project link" target="_blank"></a>
-                            </div>
-
-                            <div class="item-folio__text">
-                                <h4 class="item-folio__title">
-                                     RINTARO
-                                </h4>
-                            </div>
-                            <div class="item-folio__caption">
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end masonry__brick -->
-
-
-                </div> <!-- end masonry__brick -->
-
-            </div> <!-- end masonry -->
-
-            </div> <!-- end masonry-wrap -->
-
-        </section> <!-- end  -->
-    </main>
-
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-10 col-12  mb-10 mb-lg-10">
-                    <a class="navbar-brand d-flex align-items-center"
-                        href="https://www.instagram.com/kisetsu.goto.no.shiawase/?hl=id">
-                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="">
-                        <span class="navbar-brand-text">
-                            Kisetsu
-                            <small>Go To No Shiawase</small>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-lg-3 col-12">
-                    <h5 class="site-footer-title mb-4"></h5>
-                    </p>
-                </div>
-
-
-                <div class="col-lg-2 col-12 ms-auto">
-                    <ul class="social-icon mt-lg-5 mt-3 mb-4">
-                    </ul>
-                    <p class="copyright-text">Website By: <a rel="nofollow"
-                            href="https://www.instagram.com/tetsuya.dev/" target="_blank">Tetsuya_Kumiko</a>
-                    </p>
-
-                </div>
-
-            </div>
+          </div>
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#3D405B" fill-opacity="1"
-                d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z">
-            </path>
+          <path
+            fill="#ffffff"
+            fill-opacity="1"
+            d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+          ></path>
         </svg>
-    </footer>
+      </section>
 
+      <!-- Galeri // Galeri
+    ================================================== -->
+      <section class="s-works target-section">
+        <div class="row heading-block heading-block--center" data-aos="fade-up">
+          <div class="col-lg-12 col-12 text-center">
+            <h2 class="mb-lg-10 mb-10">MAID AND BUTLER</h2>
+          </div>
+        </div>
+        <!-- end heading-block -->
+
+        <div class="col-lg-12 col-12 text-center">
+          <div class="paragaf col-12 me-auto mb-4 mb-lg-0">
+            <p>
+              Kami mengundang talenta terbaik untuk bergabung dengan
+              <strong> Aki no Variable Maid Cafe</strong> dalam sebuah event
+              khusus yang sedang kami persiapkan. Kami sedang mencari talenta
+              yang memiliki kemampuan komunikasi yang baik, sikap profesional,
+              serta penampilan menawan untuk menjadi bagian dari maid and butler
+              kami. Sebagai maid and butler dalam
+              <strong> Aki no Variable Maid Cafe</strong>, Anda akan menciptakan
+              atmosfer yang khusus dan memberikan pengalaman yang tak terlupakan
+              kepada para master yang hadir dalam event ini.
+              <br />
+              <br />
+              Sebagai maid and butler dalam event ini, Anda akan memiliki
+              kesempatan unik untuk memberikan pelayanan istimewa kepada para
+              master. Dalam <strong> Aki no Variable Maid Cafe</strong>, kami
+              mengutamakan profesionalisme, komunikasi yang baik, serta
+              penampilan yang menarik.
+              <br />
+              <br />
+              Jadi, jika Anda adalah seorang talenta yang memiliki keahlian
+              tersebut, kami mengundang Anda untuk bergabung dengan kami dalam
+              event ini. Jadilah bagian dari pengalaman maid and butler yang
+              eksklusif dalam <strong> Aki no Variable Maid Cafe</strong>, dan
+              nikmati pengalaman yang memuaskan dalam melayani para master
+              dengan keramahan dan keanggunan.
+            </p>
+          </div>
+
+          <div class="custom-btn-group">
+            <a
+              href="https://docs.google.com/forms/d/1Q7sTyQzTBKyAOJMDdt2xJ7Cme_ZxLsW-Usx9Iye1gtk/edit"
+              class="btn custom-btn smoothscroll me-3"
+              >Register as Talent !</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- end  -->
+
+      <!-- ======= Chefs Section ======= -->
+      <section id="chefs" class="chefs mb-10">
+        <div class="container" data-aos="fade-up">
+          <div class="row gy-4">
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="chef-member">
+                <div class="member-img">
+                  <img
+                    src="./images/members/eline.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://www.instagram.com/inachellina/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <span>MAID</span>
+                  <h4>Inachellina</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                    eos asperiores numquam vero exercitationem iure optio
+                    laudantium consequatur veritatis eius explicabo quaerat
+                    voluptates, ut placeat, culpa dolore ex natus delectus
+                    laborum animi magnam repellendus sequi. Optio voluptate
+                    iusto officiis vero culpa repellendus porro, natus ab
+                    temporibus ex. Fuga, quos deserunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="chef-member">
+                <div class="member-img">
+                  <img
+                    src="./images/members/eline.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://www.instagram.com/inachellina/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <span>MAID</span>
+                  <h4>Inachellina</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                    eos asperiores numquam vero exercitationem iure optio
+                    laudantium consequatur veritatis eius explicabo quaerat
+                    voluptates, ut placeat, culpa dolore ex natus delectus
+                    laborum animi magnam repellendus sequi. Optio voluptate
+                    iusto officiis vero culpa repellendus porro, natus ab
+                    temporibus ex. Fuga, quos deserunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-4 col-md-6 d-flex align-items-stretch"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="chef-member">
+                <div class="member-img">
+                  <img
+                    src="./images/members/eline.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://www.instagram.com/inachellina/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <span>MAID</span>
+                  <h4>Inachellina</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+                    eos asperiores numquam vero exercitationem iure optio
+                    laudantium consequatur veritatis eius explicabo quaerat
+                    voluptates, ut placeat, culpa dolore ex natus delectus
+                    laborum animi magnam repellendus sequi. Optio voluptate
+                    iusto officiis vero culpa repellendus porro, natus ab
+                    temporibus ex. Fuga, quos deserunt.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- End Chefs Member -->
+          </div>
+        </div>
+      </section>
+      <!-- End Chefs Section -->
+    </main>
+
+    <footer
+      class="text-center text-lg-start text-white mt-5"
+      style="
+        background-image: url('images/2.jpg');
+        background-size: cover;
+        background-position: center;
+      "
+    >
+      <!-- Grid container -->
+      <div class="container p-4">
+        <!--Grid row-->
+        <div class="d-flex justify-content-center">
+          <!--Grid column-->
+          <div
+            class="col-lg-3 col-md-6 mb-5 masonry__brick"
+            style="background-color: rgba(0, 0, 0, 0.562); border-radius: 50px"
+          >
+            <div
+              class="shadow-1-strong d-flex align-items-center justify-content-center mx-auto mt-5"
+              style="
+                width: 150px;
+                height: 150px;
+                filter: drop-shadow(0 0 0.75rem rgb(255, 0, 0));
+              "
+            >
+              <img src="/images/logo.png" height="180" alt="" />
+            </div>
+
+            <p
+              class="text-center text-white mt-5"
+              style="
+                text-shadow: 2px 2px 4px #ff0000;
+                font-family: 'DM Sans', sans-serif;
+                font-weight: 700;
+                font-size: 20px;
+              "
+            >
+              KISETSU GO TO NO SHIAWASE
+            </p>
+
+            <ul class="d-flex flex-row align-items-center">
+              <li>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/ae.trailblazers/"
+                >
+                  <img
+                    src="/images/Mepart/AE.TRAILBLAZERS  .png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/otakuklaten/"
+                >
+                  <img src="/images/Mepart/OKLATEN_HD.png" height="50" alt="" />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/otakutulungagung/"
+                >
+                  <img
+                    src="/images/Mepart/New Logo TAC.png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/ae.tavernbar/"
+                >
+                  <img src="/images/Mepart/magic.png" height="50" alt="" />
+                </a>
+
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/kazuma.cosplay/"
+                >
+                  <img
+                    src="/images/Mepart/LOGO KAZUMA.png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+                <a
+                  class="text-white px-2 mt-3"
+                  href="httphttps://www.instagram.com/jpnakama.ta/"
+                >
+                  <img
+                    src="/images/Mepart/Logo Japan Nakama Tulungagung .png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/kisetsu.goto.no.shiawase/"
+                >
+                  <img src="/images/Mepart/LOGO GJDW.png" height="50" alt="" />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/idolcos.id/"
+                >
+                  <img
+                    src="/images/Mepart/idolcos-transparant.png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+                <a
+                  class="text-white px-2"
+                  href="https://www.instagram.com/kitsu.sekai/"
+                >
+                  <img
+                    src="/images/Mepart/logo-hollow-WHITEE.png"
+                    height="50"
+                    alt=""
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center p-3"
+        style="background-color: rgba(20, 20, 20, 0.705)"
+      >
+        © 2023 Copyright :
+        <a class="text-white" href="https://www.instagram.com/tetsuya.dev/">
+          <i class="bi bi-instagram"></i> Tetsuya Kumiko</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
 
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
@@ -294,13 +415,11 @@
     <script src="js/custom.js"></script>
 
     <script>
-        $(document).ready(function () {
-            $(".menu-toggle").click(function () {
-                $('nav').toggleClass('active');
-            })
-        })
+      $(document).ready(function () {
+        $(".menu-toggle").click(function () {
+          $("nav").toggleClass("active");
+        });
+      });
     </script>
-
-</body>
-
+  </body>
 </html>
