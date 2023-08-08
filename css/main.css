@@ -1669,6 +1669,9 @@ xpush
   font-size: 14px;
 }
 
+.social {
+  color: Black;
+}
 .contact .info-item .social-links a {
   font-size: 24px;
   display: inline-block;
