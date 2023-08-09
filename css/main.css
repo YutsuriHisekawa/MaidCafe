@@ -3,9 +3,9 @@
    *
    * ------------------------------------------------------------------- */
 .s-works {
-  padding-top: 19.2rem;
+  padding-top: 10rem;
   padding-bottom: 2rem;
-  background-color: #ffffff;
+  background-color: white;
 }
 
 .masonry-wrap {
@@ -276,7 +276,7 @@
 }
 
 .paragaf {
-  padding: 0px 60px;
+  padding: 0px 30px;
 }
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
