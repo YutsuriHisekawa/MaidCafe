@@ -1810,3 +1810,21 @@ xpush
     transform: scale(1.2);
   }
 }
+
+.food {
+  background-color: #d6d6d6; 
+  align-items: center; 
+  border-radius: 20px;
+}
+
+.foodtext {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  text-align: center;
+}
+
+.foodimg {
+  height: 150px;
+  width: 150px;
+  border-radius: 20px;
+}
