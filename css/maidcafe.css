@@ -1328,3 +1328,21 @@ strong {
   }
 }
 
+
+    .centered-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* This will wrap the content if it exceeds the container width */
+        list-style-type: none; /* To remove default bullet points of <ul> */
+        padding: 0; /* To remove default padding of <ul> */
+    }
+    .centered-list li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .centered-list a {
+        padding: 0 10px; /* Adjust as per your requirement */
+    }
